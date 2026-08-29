@@ -14,8 +14,8 @@ export default function Contact() {
           <Reveal className="lg:col-span-6" delay={80}>
             <div className="space-y-3">
               <ContactRow label="Email" value={profile.email} href={profile.social.email} />
-              <ContactRow label="LinkedIn" value="linkedin.com/in/khushi-agarwal-b819a0220/" href={profile.social.linkedin} />
-              <ContactRow label="GitHub" value="github.com/Khushiagrwal" href={profile.social.github} />
+              <ContactRow label="LinkedIn" value="linkedin.com/in/tanuagarwal11/" href={profile.social.linkedin} />
+              <ContactRow label="GitHub" value="github.com/TanuAgarwal11" href={profile.social.github} />
             </div>
           </Reveal>
 

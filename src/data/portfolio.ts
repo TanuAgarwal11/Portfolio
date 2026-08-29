@@ -1,31 +1,32 @@
 export const profile = {
-  name: 'Khushi Agarwal',
+  name: 'Tanu Agarwal',
   role: 'Full-Stack Software Engineer',
-  tagline: 'I build real-time, scalable web applications with Angular, React, Node.js and AWS.',
+  tagline: 'I build modern, scalable web applications with React, Node.js, Express.js and MongoDB.',
   location: 'Noida, Uttar Pradesh, India',
   availability: 'Open to new opportunities',
-  email: 'khushiagarwal7821@gmail.com',
-  phone: '8193820321',
+  email: 'agarwaltanu564@gmail.com',
+  phone: '7302270321',
   resumeUrl: '/resume.pdf',
   social: {
-    github: 'https://github.com/Khushiagrwal', // update with your actual GitHub URL
-    linkedin: 'https://www.linkedin.com/in/khushi-agarwal-b819a0220/', // update with your actual LinkedIn URL
-    email: 'mailto:khushiagarwal7821@gmail.com',
+    github: 'https://github.com/TanuAgarwal11',
+    linkedin: 'https://www.linkedin.com/in/tanuagarwal11/',
+    email: 'mailto:agarwaltanu564@gmail.com',
   },
 }
 
 export const about = {
   paragraphs: [
-    "I'm a full-stack software engineer with hands-on experience building large-scale Angular applications and real-time, Node.js-powered backends. Over the past year at S&P Global, I've worked on serverless data feed monitoring systems that process thousands of daily feeds, and led a major Angular v8 to v16 migration across 20+ modules and 100+ components.",
-    "I enjoy working across the stack — from crafting responsive, performant UIs in Angular and React, to designing APIs and real-time systems with Node.js, Express, and Socket.IO. I'm equally comfortable diving into AWS services like Lambda, EventBridge, SNS, and CloudWatch to automate and monitor production workflows.",
-    "Alongside my professional work, I've built several personal projects exploring real-time collaboration, algorithm visualization, and full-stack marketplace platforms, and I've solved 400+ Data Structures & Algorithms problems on LeetCode to keep my problem-solving sharp.",
+    "I'm a full-stack software engineer with a strong foundation in React.js, JavaScript, Node.js, Express.js, and MongoDB. I enjoy building responsive, user-friendly web applications and developing secure RESTful APIs.",
+    "I work across the stack — from creating reusable React components and responsive interfaces to designing backend APIs, JWT-based authentication, authorization middleware, and MongoDB-backed applications.",
+    "Alongside development, I've solved 350+ Data Structures and Algorithms problems on LeetCode, strengthening my problem-solving and algorithmic thinking. I'm currently pursuing an MCA at Jaypee Institute of Information Technology, Noida.",
   ],
-  focus: 'Currently focused on real-time systems, cloud automation, and scalable frontend architecture.',
+  focus:
+    'Currently focused on full-stack web development, React.js, Node.js, REST APIs, MongoDB, authentication, and scalable web applications.',
   stats: [
-    { label: 'DSA problems solved', value: '400+' },
-    { label: 'Modules migrated (Angular v8→v16)', value: '20+' },
-    { label: 'Daily feeds monitored', value: '1,000+' },
-    { label: 'Manual effort reduced', value: '80%' },
+    { label: 'DSA problems solved', value: '350+' },
+    { label: 'BCA CGPA', value: '9.57' },
+    { label: 'Frontend', value: '10+' },
+    { label: 'Backend', value: '10+' },
   ],
 }
 
@@ -41,31 +42,43 @@ export const skillCategories: SkillCategory[] = [
     id: 'languages',
     label: 'Languages',
     fileLabel: 'languages.ts',
-    skills: ['Java', 'Python', 'JavaScript', 'TypeScript'],
+    skills: ['C++', 'JavaScript', 'Python'],
   },
   {
     id: 'frontend',
     label: 'Frontend',
     fileLabel: 'frontend.ts',
-    skills: ['Angular (v8–v16)', 'React.js', 'RxJS', 'HTML5', 'CSS3', 'Bootstrap', 'Material-UI', 'Tailwind CSS'],
+    skills: ['React.js', 'HTML5', 'CSS3', 'Bootstrap', 'Vite'],
   },
   {
     id: 'backend',
-    label: 'Backend & Real-Time',
+    label: 'Backend',
     fileLabel: 'backend.ts',
-    skills: ['Node.js', 'Express.js', 'RESTful APIs', 'Socket.IO', 'WebSockets', 'JWT', 'Mongoose'],
+    skills: ['Node.js', 'Express.js', 'RESTful APIs', 'JWT'],
   },
   {
-    id: 'cloud',
-    label: 'Databases & Cloud',
-    fileLabel: 'infra.ts',
-    skills: ['SQL', 'MongoDB', 'AWS Lambda', 'EventBridge', 'SNS', 'CloudWatch', 'Secrets Manager', 'Vercel', 'Render'],
+    id: 'databases',
+    label: 'Databases',
+    fileLabel: 'databases.ts',
+    skills: ['MongoDB', 'Mongoose', 'SQL'],
   },
   {
     id: 'tools',
-    label: 'Tools & Practices',
+    label: 'Tools',
     fileLabel: 'tools.ts',
-    skills: ['Git', 'GitHub', 'Postman', 'VS Code', 'System Design Fundamentals', 'Debugging', 'Performance Optimization'],
+    skills: ['Git', 'GitHub', 'VS Code', 'Thunder Client'],
+  },
+  {
+    id: 'concepts',
+    label: 'Concepts',
+    fileLabel: 'concepts.ts',
+    skills: [
+      'Data Structures & Algorithms',
+      'OOP',
+      'DBMS',
+      'Authentication & Authorization',
+      'Responsive Web Design',
+    ],
   },
 ]
 
@@ -80,22 +93,13 @@ export type ExperienceEntry = {
 
 export const experience: ExperienceEntry[] = [
   {
-    id: 'exp-2',
-    company: 'S&P Global',
-    role: 'Software Engineer Apprentice',
-    duration: 'June 2025 — June 2026',
-    description:
-      'Migrated a large-scale Angular application from v8 to v16 across 20+ modules and 100+ components, resolving breaking changes in routing, RxJS, HttpClient, and third-party libraries. Upgraded RxJS v6 to v7 and refactored 50+ observable patterns with takeUntil lifecycle management to eliminate subscription-related memory leaks. Resolved 200+ TypeScript strict-mode errors and modernized project configuration for Angular 16 compatibility. Designed and maintained a serverless data feed monitoring & alerting system processing 1,000+ daily/intraday feeds from 2,000+ data sources, automating workflows with AWS Lambda, EventBridge, and SNS to reduce manual effort by 80%.',
-    tech: ['Angular', 'RxJS', 'TypeScript', 'AWS Lambda', 'EventBridge', 'SNS', 'CloudWatch'],
-  },
-  {
     id: 'exp-1',
-    company: 'GLA University (Jovac)',
-    role: 'Backend Development Training — SQL & MongoDB',
-    duration: 'June 2023 — Aug 2023',
+    company: 'Pinnacle Labs',
+    role: 'Web Development Intern',
+    duration: '2025',
     description:
-      'Completed backend development training focused on SQL and MongoDB, covering database design, queries, data management, and security fundamentals. Earned a Gold Medal for excellence in the program.',
-    tech: ['SQL', 'MongoDB', 'Database Design', 'Security Fundamentals'],
+      'Completed a one-month web development internship focused on building responsive and user-friendly web interfaces using HTML, CSS, and JavaScript. Built an interactive Calculator application with dynamic user interactions and JavaScript-based calculations. Designed and developed a responsive personal Portfolio Website showcasing projects, skills, and professional information. Improved usability by implementing responsive layouts and interactive UI components across different screen sizes.',
+    tech: ['HTML', 'CSS', 'JavaScript'],
   },
 ]
 
@@ -123,91 +127,95 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    id: 'proj-whiteboard',
-    name: 'Real-Time Collaborative Whiteboard',
+    id: 'proj-lendora',
+    name: 'Lendora — Full-Stack Rental Platform',
     description:
-      'A full-stack real-time collaborative whiteboard enabling multiple users to draw, edit, and manage shared boards simultaneously via an interactive canvas.',
-    tech: ['Angular', 'Node.js', 'Express.js', 'MongoDB', 'Socket.IO'],
-    image: 'whiteboard',
-    githubUrl: 'https://github.com/khushiagarwal7821/ai-collaboration',
-    demoUrl: 'https://ai-collaboration-64aq.vercel.app',
+      'A full-stack rental platform that enables users to list, borrow, and manage rental products through a secure web application.',
+    tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT'],
+    image: 'lendora',
+    githubUrl: '',
+    demoUrl: '',
     featured: true,
     detail: {
       problem:
-        'Teams needed a lightweight way to draw, sketch, and collaborate live on a shared canvas without juggling heavier, bloated whiteboard tools.',
+        'Users need a simple and secure platform to list, browse, borrow, and manage rental products.',
       solution:
-        'A full-stack whiteboard app with pen, eraser, shapes, lines, and text tools, where every stroke syncs instantly across all connected participants.',
+        'Developed a full-stack rental platform with a React.js frontend and Node.js/Express.js backend backed by MongoDB.',
       features: [
-        'Interactive canvas with pen, eraser, shapes, lines, and text',
-        'Real-time multi-user sync via Socket.IO and board-specific rooms',
-        'JWT-based authentication with role-based access (owner/collaborator)',
-        'Token-based secure invitation and sharing system',
+        'User authentication and authorization',
+        'Product management and rental operations',
+        'RESTful APIs for backend functionality',
+        'JWT-based authentication with protected routes',
+        'Authorization middleware for secure user access',
+        'MongoDB persistence using Mongoose',
       ],
       architecture:
-        'An Angular frontend renders the canvas and connects to a Node.js/Express backend over REST for auth and board management, with Socket.IO handling real-time drawing events broadcast to room-specific participants. MongoDB stores boards, users, and permissions.',
-      techStack: ['Angular', 'Node.js', 'Express.js', 'MongoDB', 'Socket.IO', 'JWT'],
+        'A React.js frontend communicates with a Node.js/Express.js REST API. JWT authentication protects routes and authorization middleware controls access, while MongoDB with Mongoose provides persistent storage.',
+      techStack: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Mongoose', 'JWT'],
       challenges:
-        'Keeping drawing sync low-latency and consistent across many concurrent users required careful room-based event scoping in Socket.IO to avoid unnecessary broadcast overhead.',
+        'Implementing secure authentication, protected routes, authorization, and reliable frontend-backend communication while maintaining clean separation between application layers.',
       learned:
-        'Practical experience designing real-time systems, structuring WebSocket rooms, and implementing secure, role-based sharing flows end to end.',
+        'Practical experience building MERN-style applications, REST APIs, JWT authentication, authorization middleware, MongoDB persistence, and client-server communication.',
     },
   },
   {
-    id: 'proj-algovisualizer',
-    name: 'Algo-Visualizer',
+    id: 'proj-streamify',
+    name: 'Streamify — Video Streaming Platform',
     description:
-      'An interactive algorithm visualization platform for exploring sorting algorithms step-by-step with dynamic animations and games that reinforce time-complexity concepts.',
-    tech: ['React.js', 'Material-UI', 'Tailwind CSS'],
-    image: 'algovisualizer',
-    githubUrl: 'https://github.com/khushiagarwal7821/algovisualizer',
-    demoUrl: 'https://algovisualizer-beta.vercel.app',
-    detail: {
-      problem:
-        'Sorting algorithms and time-complexity concepts are hard to internalize from static explanations alone, especially for students first learning DSA.',
-      solution:
-        'An interactive platform that animates sorting algorithms step by step and pairs them with small games that reinforce time-complexity intuition.',
-      features: [
-        'Step-by-step animated visualizations of sorting algorithms',
-        'Interactive games reinforcing time-complexity concepts',
-        'Responsive, reusable component structure',
-        'Fast client-side routing and builds via Vite',
-      ],
-      architecture:
-        'A React application structured into reusable, responsive components, using React Router for navigation and Vite for fast builds, deployed on Vercel.',
-      techStack: ['React.js', 'Material-UI', 'Tailwind CSS', 'React Router', 'Vite'],
-      challenges:
-        'Designing animations that stayed accurate to each algorithm\'s actual step order while remaining smooth and easy to follow took several rounds of refinement.',
-      learned:
-        'Stronger intuition for breaking down algorithms into visualizable steps, and experience building component-driven, responsive UIs from scratch.',
-    },
-  },
-  {
-    id: 'proj-rentfashion',
-    name: 'RentFashion',
-    description:
-      'A dual-portal rental platform with separate buyer and seller workflows for product management, rental, purchase, and commenting.',
-    tech: ['Node.js', 'Express.js', 'Passport.js', 'EJS', 'MongoDB'],
-    image: 'rentfashion',
-    githubUrl: 'https://github.com/khushiagarwal7821/rentfashion',
+      'A responsive video streaming interface inspired by modern OTT platforms, built with React.js and JavaScript.',
+    tech: ['React.js', 'JavaScript', 'HTML', 'CSS'],
+    image: 'streamify',
+    githubUrl: '',
     demoUrl: '',
     detail: {
       problem:
-        'Fashion rental marketplaces need distinct, secure workflows for buyers and sellers — from listing and browsing products to renting, purchasing, and reviewing them.',
+        'Modern streaming platforms require responsive interfaces that make content discovery and navigation simple and engaging.',
       solution:
-        'A full-stack rental platform with separate buyer and seller portals, secure authentication, and persistent MongoDB-backed storage for products, carts, and comments.',
+        'Developed a responsive video streaming interface inspired by modern OTT platforms using React.js and JavaScript.',
       features: [
-        'Separate buyer and seller portals with distinct workflows',
-        'Product management, rental, and purchase flows',
-        'Cart and commenting system',
-        'Secure authentication and authorization with Passport.js',
+        'Reusable React components',
+        'Navigation and content sections',
+        'Movie/show cards and responsive layouts',
+        'Interactive UI features for a smooth streaming-platform experience',
       ],
       architecture:
-        'A Node.js/Express server renders dynamic views with EJS, uses Passport.js for authentication/authorization, and persists product, user, and order data in MongoDB.',
-      techStack: ['Node.js', 'Express.js', 'Passport.js', 'EJS', 'MongoDB'],
+        'A component-based React.js frontend uses reusable UI components and responsive CSS to structure navigation, content sections, cards, and interactive features.',
+      techStack: ['React.js', 'JavaScript', 'HTML', 'CSS'],
       challenges:
-        'Cleanly separating buyer and seller permissions and views within a single EJS-rendered app required careful route and middleware organization.',
+        'Creating reusable components and responsive layouts while maintaining a consistent user experience across different screen sizes.',
       learned:
-        'Deeper understanding of server-rendered app architecture, authentication flows, and structuring a two-sided marketplace from the ground up.',
+        'Improved React component design, responsive UI development, and frontend application structuring.',
+    },
+  },
+  {
+    id: 'proj-portfolio',
+    name: 'Personal Portfolio Website',
+    description:
+      'A responsive personal portfolio website showcasing technical skills, projects, education, and professional experience.',
+    tech: ['React.js', 'JavaScript', 'HTML', 'CSS', 'Vite'],
+    image: 'portfolio',
+    githubUrl: '',
+    demoUrl: '',
+    detail: {
+      problem:
+        'A professional portfolio needs to clearly present technical skills, projects, education, and experience through a responsive interface.',
+      solution:
+        'Built a responsive personal portfolio website using React.js and modern frontend development practices.',
+      features: [
+        'Responsive personal portfolio',
+        'Technical skills and project sections',
+        'Education and professional experience sections',
+        'Reusable React components',
+        'Responsive layouts',
+        'Vite-based development workflow',
+      ],
+      architecture:
+        'A React.js frontend uses reusable components and responsive layouts, with Vite configured for a fast and efficient development workflow.',
+      techStack: ['React.js', 'JavaScript', 'HTML', 'CSS', 'Vite'],
+      challenges:
+        'Organizing portfolio information into reusable components while ensuring the website remains responsive and easy to navigate.',
+      learned:
+        'Strengthened React component development, responsive design, and modern frontend development workflow skills.',
     },
   },
 ]
@@ -220,34 +228,42 @@ export type Certificate = {
   description: string
   documentUrl?: string
 }
-
 export const certificates: Certificate[] = [
   {
-    id: 'cert-sql-mongodb',
-    title: 'Backend Development using SQL & MongoDB with Security Assurance',
-    issuer: 'GLA University, Mathura (Dept. of Computer Engineering & Applications)',
-    date: 'June 2023 — Aug 2023',
+    id: 'cert-cpp',
+    title: 'Introduction to C++',
+    issuer: 'GreatStack',
+    date: '11 May 2026',
     description:
-      'Job-Oriented Value-Added Course (Internship JOVAC) covering database design, queries, data management, and security fundamentals. Completed as a Gold Medalist.',
-    documentUrl: '/certificate/sql-mongodb.pdf',
+      'Certificate of Completion for successfully completing the Introduction to C++ course with demonstrated theoretical and practical understanding.',
+    documentUrl: '/certificate/C++ Certificate.pdf',
   },
   {
-    id: 'cert-she-codes',
-    title: 'She Codes ~22',
-    issuer: 'IEEE WIE GLAU x CODEBUSTERS, GLA University',
-    date: 'March 2022',
+    id: 'cert-fullstack-react',
+    title: 'Full Stack React E-Commerce Project',
+    issuer: 'GreatStack',
+    date: '27 Aug 2026',
     description:
-      'Certificate of Participation for the "She Codes~22" event organized by IEEEWIEGLAU x CODEBUSTERS student affinity group, Department of Computer Engineering and Applications, GLA University.',
-    documentUrl: '/certificate/She_codes_certidicate.pdf',
+      'Certificate of completion for successfully completing the Full Stack React E-Commerce Project.',
+    documentUrl: '/certificate/Full stack React.png',
   },
   {
-    id: 'cert-java-basic',
-    title: 'Java (Basic)',
-    issuer: 'HackerRank',
-    date: 'Feb 2023',
+    id: 'cert-networking',
+    title: 'CCNA: Introduction to Networks',
+    issuer: 'Cisco Networking Academy — Galgotias University',
+    date: '01 Jun 2025',
     description:
-      'Certificate of Accomplishment for passing the HackerRank skill certification test in Java (Basic).',
-    documentUrl: '/certificate/java_basic%20certificate.pdf',
+      'Awarded for successfully completing CCNA: Introduction to Networks offered by Galgotias University through the Cisco Networking Academy program.',
+    documentUrl: '/certificate/Introduction to networks.jpg',
+  },
+  {
+    id: 'cert-tda',
+    title: 'TDA Certificate',
+    issuer: 'TDA',
+    date: 'N/A',
+    description:
+      'Certificate associated with the TDA program and the completed coursework.',
+    documentUrl: '/certificate/TDA_Certificate.pdf.pdf',
   },
 ]
 
