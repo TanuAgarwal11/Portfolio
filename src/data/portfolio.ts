@@ -236,7 +236,7 @@ export const certificates: Certificate[] = [
     date: '11 May 2026',
     description:
       'Certificate of Completion for successfully completing the Introduction to C++ course with demonstrated theoretical and practical understanding.',
-    documentUrl: '/certificate/C++ Certificate.pdf',
+    documentUrl: '/certificate/C++%20Certificate.pdf',
   },
   {
     id: 'cert-fullstack-react',
